@@ -15,4 +15,4 @@ RUN /bin/bash -l -c "rvm install 2.0.0-p247"
 RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 
 ENTRYPOINT . /etc/profile.d/rvm.sh; /bin/bash -l
-USER deploy
+# USER deploy
